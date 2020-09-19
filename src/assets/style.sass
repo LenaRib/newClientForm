@@ -1,0 +1,78 @@
+@import "variables"
+
+.field
+  margin-bottom: 10px
+
+.error-message
+  display: inline-block
+  font-size: 11px
+  color: red
+  margin-top: -12px
+*
+  font-family: "Roboto", sans-serif
+  transition: all .3s
+  color: #333
+
+body
+  padding: 20px
+
+h1
+  text-align: center
+  padding: 20px
+
+form
+  background: #fff
+  position: relative
+  display: flex
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .3)
+  padding: 50px
+  justify-content: center
+  margin: 50px auto
+  max-width: 500px
+  flex-flow: column wrap
+  overflow: hidden
+
+.input-box
+  display: flex
+  flex-flow: column wrap
+  position: relative
+  padding: 10px
+
+textarea
+  resize: vertical
+
+input, textarea
+  margin: 0 0 20px 0
+  font-size: 17px
+  padding: 2px 1px 1px 1px
+  border: none
+  border-bottom: 1px solid #757575
+  &:focus
+  outline: none
+
+select
+  margin: 0 0 20px 0
+  font-size: 17px
+  border: 1px solid #757575
+
+label
+  font-size: 13px
+  margin: 0 0 2px 0
+
+.input-radio label
+  font-size: 15px
+  margin: 0 15px 0 3px
+  padding: 10px
+
+.input-inline
+  display: inline-block
+
+button
+  border: none
+  cursor: pointer
+  color: #fff
+  background-color: $main-color
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .3)
+  margin: 10px 0 40px 0
+  font-size: 15px
+  padding: 15px
